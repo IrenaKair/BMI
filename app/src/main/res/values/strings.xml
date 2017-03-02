@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="height">Podaj wzrost</string>
+    <string name="weight">Podaj wagę</string>
+    <string name="calculate">Oblicz</string>
+    <string name="clear">Wyczyść</string>
+    <string name="getheight">wzrost w metrach</string>
+    <string name="getweight">waga w kg</string>
+    <string name="result">"    "</string>
+    <string name="comment">"    "</string>
+    <string name="norma">Waga w normie</string>
+    <!--<string type="norma" name="normaSuffix"></string>-->
+</resources>
