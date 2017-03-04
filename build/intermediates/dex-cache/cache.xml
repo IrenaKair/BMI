@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="a841dee2baa22ea1efe584d0fe4fbb6966ec5f43">
-        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b2536d345fdb4aaad4519a278dadf78060f4104a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/robertkaczmarek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
         jumboMode="true"
         optimize="true"
@@ -30,21 +21,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_d5f875f3ddb2f9715371e9515c43aec1bd58ac02/classes.dex" />
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_ca720aba1cb6b48c06ff4ab2a840bee86aec3bd6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_32620bdc050dcba50621eac64a81f94a0dcf3315/classes.dex" />
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_b1252e743c17feb42041beeec08135f65c9683b9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -54,15 +45,6 @@
         revision="25.0.1"
         sha1="1f2f9f982de747a44cd6830a07d4e433fd557af8">
         <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e9ab81819ca7388f12ffd660f4bb5c6e992eaee5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_28bd5e5cf1a5834590dd81c666dce7d2307941bf/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,6 +75,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_522961d5a780992625d32d7621c0548890706b22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_fd31afc03897bb6ced95dc8b885ff75fe5637740/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_4f0eb7e210c74a53a7efe941cfe6375d5c766130/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -102,12 +111,102 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_94d4db2ae3ddc4e7d638d943891b179f457983f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_ec32005714c304009434400fab1a06a3afb9fc4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="79477242590e6848187cd56b6c0c82ee69513f74">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2542130be41306a5767e3f6726556e04e286638d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a841dee2baa22ea1efe584d0fe4fbb6966ec5f43">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b2536d345fdb4aaad4519a278dadf78060f4104a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_d5f875f3ddb2f9715371e9515c43aec1bd58ac02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_32620bdc050dcba50621eac64a81f94a0dcf3315/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_ffed1e44a59136d401f6545a0008a118d7b530e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_28bd5e5cf1a5834590dd81c666dce7d2307941bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_b018f8857acafeae47b8a62e47e340b89334b596/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
         <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_e60f9d2def141be453926bbc9b3e553ea9314946/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a0175e094990142ca69b3e58bcd6c68565b07cef">
+        <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9c7cbb866197598bf7d9a536e590088ab32b72aa/classes.dex" />
     </item>
 
 </items>

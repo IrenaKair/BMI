@@ -1,13 +1,33 @@
+
+
 <resources>
     <string name="app_name">BMI Calculator</string>
-    <string name="height">Podaj wzrost</string>
-    <string name="weight">Podaj wagę</string>
-    <string name="calculate">Oblicz</string>
-    <string name="clear">Wyczyść</string>
-    <string name="getheight">wzrost w metrach</string>
-    <string name="getweight">waga w kg</string>
+    <string name="height">Heihht</string>
+    <string name="weight">Weight</string>
+    <string name="calculate">Calculate</string>
+    <string name="clear">Clear</string>
+    <string name="getheight">in centimeter</string>
+    <string name="getweight">in kilogram</string>
     <string name="result">"    "</string>
     <string name="comment">"    "</string>
-    <string name="norma">Waga w normie</string>
+    <string name="comment2">"    "</string>
+    <string name="norma">Weight is normal</string>
+    <string name="bmi">Your BMI is</string>
+    <string name="fitA">Starvation</string>
+    <string name="fitB">Emaciation</string>
+    <string name="fitC">Underweight</string>
+    <string name="fitD">Normal</string>
+    <string name="fatE">Fat</string>
+    <string name="fatF">Obesity I grade</string>
+    <string name="fatG">Obesity II grade</string>
+    <string name="fatH">Obiesity extreme</string>
+    <string name="oooo">Your weight should be between</string>
+    <string name="aa">and</string>
+    <string name="kg">kg</string>
+
+
+
+
+
     <!--<string type="norma" name="normaSuffix"></string>-->
 </resources>
