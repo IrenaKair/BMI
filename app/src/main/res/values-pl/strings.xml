@@ -23,4 +23,6 @@
     <string name="oooo">Powinieneś ważyć pomiędzy</string>
     <string name="aa">and</string>
     <string name="kg">kg</string>
+    <string name="mistake">Nieprawidłowe dane. Nie mogę obliczyć.</string>
+    <string name="suggestion">Waga powinna "\n" być pomiędzy</string>
 </resources>

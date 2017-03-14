@@ -2,7 +2,7 @@
 
 <resources>
     <string name="app_name">BMI Calculator</string>
-    <string name="height">Heihht</string>
+    <string name="height">Height</string>
     <string name="weight">Weight</string>
     <string name="calculate">Calculate</string>
     <string name="clear">Clear</string>
@@ -21,9 +21,11 @@
     <string name="fatF">Obesity I grade</string>
     <string name="fatG">Obesity II grade</string>
     <string name="fatH">Obiesity extreme</string>
-    <string name="oooo">Your weight should be between</string>
+    <string name="suggestion">Your weight "\n" should be between</string>
     <string name="aa">and</string>
     <string name="kg">kg</string>
+    <string name="mistake">Unknown data. I cant calculate...</string>
+
 
 
 

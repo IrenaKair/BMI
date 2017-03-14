@@ -18,9 +18,11 @@
     <string name="fitD">Normal</string>
     <string name="fatE">Sobrepeso</string>
     <string name="fatF">Obesidad I el grado</string>
-    <string name="fatG">Obesidad I el grado</string>
-    <string name="fatH">Obesidad I el grado</string>
+    <string name="fatG">Obesidad II el grado</string>
+    <string name="fatH">Obesidad III el grado</string>
     <string name="oooo">Su peso debr ser</string>
     <string name="aa">y</string>
     <string name="kg">kg</string>
+    <string name="mistake">Datos incorrectos. No puedo calcular.</string>
+    <string name="suggestion">Su peso debe "\n" estar entre</string>
 </resources>

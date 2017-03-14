@@ -27,6 +27,8 @@ public class BMI extends AppCompatActivity {
         Double r = ww/(hh*hh/10000);
         String a = String.format("%.2f", r);
 
+
+
         Double maxR = (hh*hh/10000)*24.99;
         String max = String.format("%.2f", maxR);
 
@@ -34,8 +36,8 @@ public class BMI extends AppCompatActivity {
         String min = String.format("%.2f", minR);
 
         TextView result = (TextView)findViewById(R.id.result);
-        String bmi = getString(R.string.bmi);
-        result.setText(bmi + "\n" + a);
+       // String bmi = getString(R.string.bmi);
+        result.setText(a);
         TextView comment = (TextView)findViewById(R.id.comment);
         String fitA = getString(R.string.fitA);
         String fitB = getString(R.string.fitB);
@@ -74,10 +76,18 @@ public class BMI extends AppCompatActivity {
             comment.setText(fatH);// +"\n"+ "Dla ciebie " +"\n" +"max waga to "+"\n"+ max +"kg");
         }
         TextView comment2 = (TextView) findViewById(R.id.comment2);
-        String ooo = getString(R.string.oooo);
+       // String ooo = getString(R.string.oooo);
         String aa = getString(R.string.aa);
         String kg = getString(R.string.kg);
-        comment2.setText(ooo +"\n"+ min +" "+ aa+" "+ max+" "+kg);
+        comment2.setText(min +" "+ aa+" "+ max+" "+kg);
+
+        if(ww==0 || hh==0){
+            String mistake=getString(R.string.mistake);
+            result.setText(mistake);
+            comment.setText("");
+            comment2.setText("");
+
+        }
     }
 
     public void cleare(View view) {
