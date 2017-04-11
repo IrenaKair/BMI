@@ -1,5 +1,3 @@
-
-
 <resources>
     <string name="app_name">BMI Calculator</string>
     <string name="height">Height</string>
@@ -8,7 +6,7 @@
     <string name="clear">Clear</string>
     <string name="getheight">in centimeter</string>
     <string name="getweight">in kilogram</string>
-    <string name="result">"    "</string>
+    <string name="result1">"    "</string>
     <string name="comment">"    "</string>
     <string name="comment2">"    "</string>
     <string name="norma">Weight is normal</string>
@@ -25,10 +23,6 @@
     <string name="aa">and</string>
     <string name="kg">kg</string>
     <string name="mistake">Unknown data. I cant calculate...</string>
-
-
-
-
 
 
     <!--<string type="norma" name="normaSuffix"></string>-->

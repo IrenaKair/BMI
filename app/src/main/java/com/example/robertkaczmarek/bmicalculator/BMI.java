@@ -1,14 +1,23 @@
 package com.example.robertkaczmarek.bmicalculator;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.PrintStream;
 
 public class BMI extends AppCompatActivity {
+
+    Double result2;
+    Double minR;
+    Double maxR;
+    String fit;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,83 +33,78 @@ public class BMI extends AppCompatActivity {
         String h = height.getText().toString();
         Double hh = Double.parseDouble(h);
 
-        Double r = ww/(hh*hh/10000);
-        String a = String.format("%.2f", r);
-
-
-
+         result2 = ww/(hh*hh/10000);
         Double maxR = (hh*hh/10000)*24.99;
-        String max = String.format("%.2f", maxR);
 
         Double minR = (hh*hh/10000)*18;
+
+
+
+        if (result2 < 15) {
+             fit = getString(R.string.fitA);
+
+        } else if (result2 < 17 && result2 >= 15) {
+            fit = getString(R.string.fitB);
+        }else if (result2 < 18 && result2 >= 17) {
+             fit = getString(R.string.fitC);
+
+        }
+        else if (result2 < 25 && result2 >= 18) {
+
+            fit = getString(R.string.fitD);
+
+
+        }else if (result2 < 30 && result2 >= 25) {
+
+             fit = getString(R.string.fatE);
+
+        }else if (result2 < 35 && result2 >= 30) {
+
+             fit = getString(R.string.fatF);
+        }else if (result2 < 40 && result2 >= 35) {
+             fit = getString(R.string.fatG);
+        }else if (result2 >=40) {
+            fit = getString(R.string.fatH);
+
+        }
+
+
+
+        String a = String.format("%.2f", result2);
+        String max = String.format("%.2f", maxR);
         String min = String.format("%.2f", minR);
+        String fita = fit;
 
-        TextView result = (TextView)findViewById(R.id.result);
-       // String bmi = getString(R.string.bmi);
-        result.setText(a);
-        TextView comment = (TextView)findViewById(R.id.comment);
-        String fitA = getString(R.string.fitA);
-        String fitB = getString(R.string.fitB);
-        String fitC = getString(R.string.fitC);
-        String fitD = getString(R.string.fitD);
-        String fatE = getString(R.string.fatE);
-        String fatG = getString(R.string.fatG);
-        String fatF = getString(R.string.fatF);
-        String fatH = getString(R.string.fatH);
 
-        //String norma = view.getTag().toString();
-        if (r < 15) {
-            comment.setText(fitA);// +"\n"+ "Dla ciebie " +"\n" +"min waga to "+"\n"+ min +"kg");
 
-        } else if (r < 17 && r >= 15) {
-            comment.setText(fitB);// +"\n"+ "Dla ciebie " +"\n" +"min waga to "+"\n"+ min +"kg");
 
-        }else if (r < 18 && r >= 17) {
-            comment.setText(fitC);//+"\n"+ "Dla ciebie " +"\n" +"min waga to "+"\n"+ min +"kg");
+        Intent go = new Intent(BMI.this, result.class);
+        go.putExtra(result.RES, a);
+        go.putExtra(result.FIT,fita);
+        go.putExtra(result.MIN, min);
+        go.putExtra(result.MAX, max);
 
-        }
-        else if (r < 25 && r >= 18) {
-            comment.setText(fitD);
 
-        }else if (r < 30 && r >= 25) {
-            comment.setText(fatE);// +"\n"+ "Dla ciebie " +"\n" +"max waga to "+"\n"+ max +"kg");
-            
 
-        }else if (r < 35 && r >= 30) {
-            comment.setText(fatF);//+"\n"+ "Dla ciebie " +"\n" +"max waga to "+"\n"+ max +"kg");
 
-        }else if (r < 40 && r >= 35) {
-            comment.setText(fatG);// +"\n"+ "Dla ciebie " +"\n" +"max waga to "+"\n"+ max +"kg");
-
-        }else if (r >=40)  {
-            comment.setText(fatH);// +"\n"+ "Dla ciebie " +"\n" +"max waga to "+"\n"+ max +"kg");
-        }
-        TextView comment2 = (TextView) findViewById(R.id.comment2);
-       // String ooo = getString(R.string.oooo);
-        String aa = getString(R.string.aa);
-        String kg = getString(R.string.kg);
-        comment2.setText(min +" "+ aa+" "+ max+" "+kg);
-
-        if(ww==0 || hh==0){
-            String mistake=getString(R.string.mistake);
-            result.setText(mistake);
-            comment.setText("");
-            comment2.setText("");
-
-        }
+        startActivity(go);
     }
+
+
+
+
 
     public void cleare(View view) {
         EditText weight = (EditText) findViewById(R.id.weight);
 
         EditText height = (EditText)findViewById(R.id.height);
 
-        TextView result = (TextView)findViewById(R.id.result);
+        TextView result1 = (TextView)findViewById(R.id.result1);
         TextView comment = (TextView) findViewById(R.id.comment);
         TextView comment2 = (TextView) findViewById(R.id.comment2);
         weight.setText("");
         height.setText("");
-        result.setText("");
+        result1.setText("");
         comment.setText("");
         comment2.setText("");
     }

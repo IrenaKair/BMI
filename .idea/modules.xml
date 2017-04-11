@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bmi-calculator.iml" filepath="$PROJECT_DIR$/bmi-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/avirto-bmi-calculator-66db4b2f0c7d.iml" filepath="$PROJECT_DIR$/avirto-bmi-calculator-66db4b2f0c7d.iml" />
     </modules>
   </component>
 </project>

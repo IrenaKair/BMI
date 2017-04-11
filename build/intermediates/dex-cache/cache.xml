@@ -3,12 +3,30 @@
 
     <item
         is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_dd7c398fa4360d8061b7931166a8965ff4a671d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
         <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_b0c0fb29e67343f7928d4a371890270e33404fc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_aac607f758f5eef4827732aa74189333c20df802/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -75,12 +93,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_c328a8362e20997266d188ca9ac42a1d0ffeff2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_fdf1111ffaa907cb79e784ee746a38e412729746/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
         <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_522961d5a780992625d32d7621c0548890706b22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_12f02037cd0273d9ba35d7aaf7857c6a823a177e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -126,6 +171,15 @@
         revision="25.0.1"
         sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
         <dex dex="/Users/robertkaczmarek/Downloads/BMIcalculator-git/bmi-calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_ec32005714c304009434400fab1a06a3afb9fc4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_54d2cdd3ba4bc93c66789888fc21ed4366b02250/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -192,12 +246,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_6a6606cc77c1c3b18be27e87ecd4452ab00d77d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e4733f76cbbf08533b0906589e0b5746486785d7">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b8c14e917aedda1113dfb3c76e4205e63f8a82c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
         <dex dex="/Users/robertkaczmarek/Downloads/BMICalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_e60f9d2def141be453926bbc9b3e553ea9314946/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2581cd335e534748a8429e9b9d161a2bf337e2d0">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_08bb92d66e8d76df569c676c028b0f58d70e08d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_c174a88a4b68881f6de3cef3428cbdf93d14cc3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_743b3244f4c11b49ce0d75b3e02836fbfedc446d/classes.dex" />
     </item>
     <item
         is-multidex="true"
