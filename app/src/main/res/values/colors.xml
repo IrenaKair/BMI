@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="backgrA">#FFFF00</color>
+    <color name="backgrB">#37ff00</color>
+    <color name="backgrC">#2dc604</color>
+    <color name="backgrD">#37de0a</color>
+    <color name="backgrE">#ffdd00</color>
+    <color name="backgrF">#ff9100</color>
+    <color name="backgrG">#c387e1</color>
+    <color name="backgrH">#e408e4</color>
+
 </resources>

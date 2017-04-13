@@ -1,14 +1,10 @@
 package com.example.robertkaczmarek.bmicalculator;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-import java.io.PrintStream;
 
 public class BMI extends AppCompatActivity {
 
@@ -23,15 +19,18 @@ public class BMI extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi);
+
+
     }
+
 
     public void calculate(View view) {
         EditText weight = (EditText) findViewById(R.id.weight);
         String w = weight.getText().toString();
-        Double ww = Double.parseDouble(w);
+      //  Double ww = Double.parseDouble(w);
         EditText height = (EditText)findViewById(R.id.height);
         String h = height.getText().toString();
-        Double hh = Double.parseDouble(h);
+      /*  Double hh = Double.parseDouble(h);
 
          result2 = ww/(hh*hh/10000);
         Double maxR = (hh*hh/10000)*24.99;
@@ -82,14 +81,14 @@ public class BMI extends AppCompatActivity {
         go.putExtra(result.RES, a);
         go.putExtra(result.FIT,fita);
         go.putExtra(result.MIN, min);
-        go.putExtra(result.MAX, max);
+        go.putExtra(result.MAX, max); */
 
-
-
+        Intent go = new Intent(BMI.this, result1.class);
+        go.putExtra(result1.WEIGHT, w);
+        go.putExtra(result1.HEIGHT, h);
 
         startActivity(go);
     }
-
 
 
 
@@ -99,13 +98,9 @@ public class BMI extends AppCompatActivity {
 
         EditText height = (EditText)findViewById(R.id.height);
 
-        TextView result1 = (TextView)findViewById(R.id.result1);
-        TextView comment = (TextView) findViewById(R.id.comment);
-        TextView comment2 = (TextView) findViewById(R.id.comment2);
+
         weight.setText("");
         height.setText("");
-        result1.setText("");
-        comment.setText("");
-        comment2.setText("");
+
     }
 }

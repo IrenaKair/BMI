@@ -259,7 +259,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="e4733f76cbbf08533b0906589e0b5746486785d7">
+        sha1="ec2f1f7243ad6d97cf8f5bace29ada45bbd9da11">
         <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b8c14e917aedda1113dfb3c76e4205e63f8a82c0/classes.dex" />
     </item>
     <item
@@ -277,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="2581cd335e534748a8429e9b9d161a2bf337e2d0">
+        sha1="0d7e2bc43801e7775ab2bd18af17ff7d61375146">
         <dex dex="/Users/robertkaczmarek/Desktop/avirto-bmi-calculator-66db4b2f0c7d/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_08bb92d66e8d76df569c676c028b0f58d70e08d2/classes.dex" />
     </item>
     <item

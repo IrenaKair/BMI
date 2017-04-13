@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">BMI Calculator</string>
-    <string name="height">Height</string>
+    <string name="height">Fill in fields below :</string>
     <string name="weight">Weight</string>
     <string name="calculate">Calculate</string>
     <string name="clear">Clear</string>
-    <string name="getheight">in centimeter</string>
-    <string name="getweight">in kilogram</string>
+    <string name="getheight">Height [cm]</string>
+    <string name="getweight">Weight [kg]</string>
     <string name="result1">"    "</string>
     <string name="comment">"    "</string>
     <string name="comment2">"    "</string>
@@ -19,10 +19,12 @@
     <string name="fatF">Obesity I grade</string>
     <string name="fatG">Obesity II grade</string>
     <string name="fatH">Obiesity extreme</string>
-    <string name="suggestion">Your weight "\n" should be between</string>
+    <string name="suggestion">Your weight should be between</string>
     <string name="aa">and</string>
     <string name="kg">kg</string>
     <string name="mistake">Unknown data. I cant calculate...</string>
+    <string name="back">calculate again</string>
+    <string name="action_share">Share</string>
 
 
     <!--<string type="norma" name="normaSuffix"></string>-->
