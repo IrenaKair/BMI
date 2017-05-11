@@ -25,4 +25,8 @@
     <string name="kg">kg</string>
     <string name="mistake">Datos incorrectos. No puedo calcular.</string>
     <string name="suggestion">Su peso debe "\n" estar entre</string>
+    <string name="back">calculate again</string>
+    <string name="informationApp">Información</string>
+    <string name="send">Cuota</string>
+    <string name="myBMI">Su BMI es :</string>
 </resources>

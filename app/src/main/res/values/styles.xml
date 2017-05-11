@@ -5,9 +5,12 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
      //   <item name="colorPrimaryDark">@color/colorPrimary</item>
-      //  <item name="colorAccent">#4990E2</item>
+      //  <item name="colorAccent">#FFFFFF</item>
+        <item name="android:textColor">#FFFF00</item>
 
         <item name="actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:itemBackground">#4990E2</item>
+
     </style>
 
     <style name="MyActionBarStyle" parent="Base.Widget.AppCompat.ActionBar.Solid">

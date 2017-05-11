@@ -1,14 +1,22 @@
 package com.example.robertkaczmarek.bmicalculator;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.ShareActionProvider;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class result1 extends AppCompatActivity {
     public static final String WEIGHT = "weight";
@@ -18,16 +26,21 @@ public class result1 extends AppCompatActivity {
     String max;
     Intent b;
     String rr;
-
+    dbhepl dbh;
+    Calendar c = Calendar.getInstance();
+    SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyy");
+    String strDate = sdf.format(c.getTime());
     private ShareActionProvider shareActionProvider;
+    String w;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result1);
+        dbh = new dbhepl(this);
 
         Intent take = getIntent();
-        String w = take.getStringExtra(WEIGHT);
+         w = take.getStringExtra(WEIGHT);
         String h = take.getStringExtra(HEIGHT);
         Double ww = Double.parseDouble(w);
         Double hh = Double.parseDouble(h);
@@ -41,6 +54,7 @@ public class result1 extends AppCompatActivity {
             rr = String.format("%.2f", r);
             TextView wyn = (TextView) findViewById(R.id.result10);
             wyn.setText(rr);
+           // wyn.setTextColor(Color.parseColor("#7ED321")); // tak można ustawiać kolor tekstu
             RelativeLayout new1 = (RelativeLayout) findViewById(R.id.activity_result1);
             new1.setBackgroundColor(ContextCompat.getColor(this, R.color.backgrA));
             ImageView obraz = (ImageView) findViewById(R.id.obrazek);
@@ -59,6 +73,7 @@ public class result1 extends AppCompatActivity {
             rr = String.format("%.2f", r);
             TextView wyn = (TextView) findViewById(R.id.result10);
             wyn.setText(rr);
+          //  wyn.setTextColor(ContextCompat.getColor(this, R.color.colorPrimary); // tak można ustawiać kolor
             RelativeLayout new1 = (RelativeLayout) findViewById(R.id.activity_result1);
             new1.setBackgroundColor(ContextCompat.getColor(this, R.color.backgrB));
             ImageView obraz = (ImageView) findViewById(R.id.obrazek);
@@ -198,45 +213,67 @@ public class result1 extends AppCompatActivity {
 
 
     }
-/*
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        getMenuInflater().inflate(R.menu.share, menu);
-       // MenuItem menuItem = menu.findItem(R.id.action_share);
-        shareActionProvider = (ShareActionProvider) menu.findItem(R.id.action_share).getActionProvider();
-        return true;
-      //  setIntent("BIM wynosi ");
-       // return super.onCreateOptionsMenu(menu);
+
+        MenuInflater findMenuItems = getMenuInflater();
+        findMenuItems.inflate(R.menu.share, menu);
+        return super.onCreateOptionsMenu(menu);
     }
-
-
-
-    private void setIntent() {
-
-        Intent inte = new Intent(Intent.ACTION_SEND);
-        inte.setType("Text/plain");
-        inte.putExtra(Intent.EXTRA_TEXT, "This is");
-        shareActionProvider.setShareIntent(inte);
-      /*  Uri uri = Uri.parse("android.resource://com.mypackage.myapp/");
-        inte.putExtra(Intent.EXTRA_STREAM, uri);
-        inte.putExtra(Intent.EXTRA_TEXT, "Email body text");
-        startActivity(Intent.createChooser(inte, "Share your card with:"));  //to jest z internrtu i nie rozumiem
-    }
-
-
-
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+    String myBMI =getString(R.string.myBMI);
+        int id = item.getItemId();
 
-        switch (item.getItemId()){
-            case R.id.action_share:
-                setIntent();
-                break;
+     /*   if (id == R.id.action_Menu) {
+
+            return true;
+        } */
+         if ( id == R.id.share){
+
+             Intent send = new Intent(Intent.ACTION_SEND);
+             send.setType("text/plain");
+             send.putExtra(Intent.EXTRA_TEXT, myBMI+" "+ rr);
+             startActivity(send);
         }
-        return true;
-    }*/
-      //  return super.onOptionsItemSelected(item);
+
+
+        else if (id == R.id.udostępnianie){
+
+            return true;
+        }
+        else if ( id == R.id.history){
+             Cursor cu = dbh.show();
+             if (cu.getCount()>0){
+                 StringBuilder bul = new StringBuilder();
+                 while (cu.moveToNext()){
+                     String date2 = cu.getString(0);
+                     String weight2 = cu.getString(1);
+                     String bmi2 = cu.getString(2);
+
+                     bul.append(date2);
+                     bul.append(" - weight " + " " + weight2 + " kg");
+                     bul.append("     BMI "+ bmi2 +"\n");
+                 }
+                 Intent hisRes = new Intent(result1.this, History.class);
+                 hisRes.putExtra(History.history, bul.toString());
+                 startActivity(hisRes);
+             }
+         }
+
+         else {
+             if (id == R.id.save) {
+                 boolean udalo;
+                 udalo = dbh.insertDate(w.toString(), rr.toString(), strDate.toString());
+                 if (udalo) {
+                     Toast.makeText(result1.this, "Pobrales dane udalo sie ", Toast.LENGTH_LONG).show();
+                 } else {
+                     Toast.makeText(result1.this, "Nie udalo sie pobrac danych ", Toast.LENGTH_LONG).show();
+                 }
+             }
+         }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
     }

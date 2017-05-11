@@ -24,7 +24,12 @@
     <string name="kg">kg</string>
     <string name="mistake">Unknown data. I cant calculate...</string>
     <string name="back">calculate again</string>
-    <string name="action_share">Share</string>
+    <string name="informationApp">Information</string>
+    <string name="send">Share</string>
+    <string name="myBMI">My BMI is :</string>
+    <string name="save">save</string>
+    <string name="history">history</string>
+    <string name="HistrorResult">HistoryResult</string>
 
 
     <!--<string type="norma" name="normaSuffix"></string>-->

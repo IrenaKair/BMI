@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-<item android:id="@+id/action_share"
-    android:title="@string/action_share"
-    android:icon="@android:drawable/ic_menu_send"
-    android:orderInCategory="1"
-    android:showAsAction="ifRoom"
-    android:actionProviderClass="android.widget.ShareActionProvider"/>
 
-    <item android:id="@+id/menu1"
-        android:showAsAction="ifRoom"
-        android:title="More ...">
+            <item
+                android:id="@+id/share"
+                android:title="@string/send"
+                app:icon="@android:drawable/ic_menu_send"
+                android:visible="true"/>
+            <item
+                android:id="@+id/udostępnianie"
+                android:title="@string/informationApp"
+                />
+            <item
+                android:id="@+id/save"
+                android:title="@string/save"/>
+            <item android:id="@+id/history"
+                android:title="@string/history"/>
 
-    </item>
 
-        </menu>
+
+</menu>
 
 

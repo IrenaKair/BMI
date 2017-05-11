@@ -19,13 +19,6 @@ android:background="#4990E2"
     tools:context="com.example.robertkaczmarek.bmicalculator.BMI">
 
 
-
-
-
-
-
-
-
     <TextView
 
         android:layout_width="wrap_content"

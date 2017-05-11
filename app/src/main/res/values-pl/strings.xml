@@ -25,6 +25,9 @@
     <string name="kg">kg</string>
     <string name="mistake">Nieprawidłowe dane. Nie mogę obliczyć.</string>
     <string name="suggestion">Waga powinna być pomiędzy</string>
-    <string name="action_share">Udostępnij</string>
+    <string name="informationApp">Informacje</string>
+    <string name="send">Udostępnij</string>
+    <string name="myBMI">Moje BMI wynosi :</string>
+    <string name="back">oblicz ponownie</string>
 
 </resources>
