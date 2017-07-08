@@ -71,7 +71,9 @@ android:background="#4990E2"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="30dp"
-        android:textColor="#FFFFFF"/>
+        android:background="#FFF"
+        android:textColor="#4990E2"
+        />
 
     <Button
         android:layout_width="match_parent"
@@ -81,9 +83,10 @@ android:background="#4990E2"
         android:text="@string/clear"
         android:layout_gravity="bottom"
         android:layout_marginBottom="30dp"
-        android:textColor="#FFFFFF"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        android:background="#FFF"
+        android:textColor="#4990E2"/>
 
 
 

@@ -6,7 +6,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
      //   <item name="colorPrimaryDark">@color/colorPrimary</item>
       //  <item name="colorAccent">#FFFFFF</item>
-        <item name="android:textColor">#FFFF00</item>
+        <item name="android:textColor">#FFFFFF</item>
 
         <item name="actionBarStyle">@style/MyActionBarStyle</item>
         <item name="android:itemBackground">#4990E2</item>
