@@ -23,8 +23,6 @@ public class dbhepl extends SQLiteOpenHelper implements BaseColumns {
     public static final String DATA_TIME = "data";
     public static final int VERSION = 1;
 
-
-
     public dbhepl(Context context) {
         super(context, BAZA_NAME, null, VERSION);
     }
@@ -34,14 +32,12 @@ public class dbhepl extends SQLiteOpenHelper implements BaseColumns {
         final String CREATE_TABLE = " CREATE TABLE " + TABLE_NAME + " (  " + _ID + " INTEGER, "
                 + WEIGHT + " TEXT, " + BMI + " TEXT," + DATA_TIME + " TEXT)";
                 db.execSQL(CREATE_TABLE);
-
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL(" DROP TABLE IF EXIST " + TABLE_NAME);
         onCreate(db);
-
     }
 
     public boolean insertDate ( String weight1, String bmi1, String data1){
@@ -54,19 +50,18 @@ public class dbhepl extends SQLiteOpenHelper implements BaseColumns {
         val.put("BMI", bmi1);
         val.put("Data", strDate);
 
+        // please check: db.insert(TABLE_NAME,null,val)==-1 ? false : true;
+
         if (db.insert(TABLE_NAME,null,val)==-1 ){
             return false;
         }else {
             return true;
         }
-
-
     }
 
     public Cursor show (){
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cu = db.query(TABLE_NAME,new String[]{DATA_TIME,WEIGHT,BMI},null,null,null,null,null);
         return cu;
-
     }
 }
